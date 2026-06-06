@@ -1,0 +1,7 @@
+Cultural heritage preservation is a critical challenge as historical sculptures and artifacts continue to deteriorate due to environmental factors, aging, and human activities. 
+This research presents an automated digital restoration framework for damaged Sursundari idols using the LaMa (Large Mask Inpainting) model combined with computer vision-based quantitative analysis. 
+The proposed system employs frequency-domain convolution techniques to reconstruct missing portions of idol images while maintaining global semantic consistency and structural integrity. 
+Images collected from historic temples in Maharashtra, India, were preprocessed using OpenCV techniques including noise reduction, contrast enhancement, and mask generation. 
+The LaMa model was then applied to restore damaged regions, followed by quantitative evaluation using metrics such as Structural Similarity Index (SSIM), Peak Signal-to-Noise Ratio (PSNR), Mean Absolute Error (MAE), and restoration percentage. 
+Experimental results achieved an SSIM score of 0.89, PSNR of 32.4 dB, and a restoration rate of 24.6%, demonstrating high-quality reconstruction with minimal visual artifacts. 
+Visual assessments further confirmed the model’s ability to preserve intricate details, symmetry, and texture coherence in heritage sculptures. The proposed framework provides a scalable, reproducible, and non-invasive solution for digital cultural heritage preservation, supporting archaeological documentation, virtual museum applications, and future restoration research. 
